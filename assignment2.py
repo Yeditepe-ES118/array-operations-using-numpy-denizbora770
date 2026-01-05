@@ -1,7 +1,7 @@
 import numpy as np
 def stat ():
     #importing data
-    data = np.loadtxt ("populations.txt", skiprowns = 1)
+    data = np.loadtxt ("populations.txt", skiprows = 1)
     
     #Createing hare
     hare = data[:,1]
