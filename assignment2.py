@@ -9,7 +9,7 @@ def stat ():
     #Finding the min year of hare with np.argmin
     min_hare_index = np.argmin(hare)
     
-    min_year_hare = data(min_hare_index, 0)
+    min_year_hare = data[min_hare_index, 0]
     
     lynx_avg = np.mean(data[:, 2])
     
