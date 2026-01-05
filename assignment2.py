@@ -1,5 +1,5 @@
 import numpy as np
-def stat (data):
+def stat ():
     #importing data
     data = np.loadtxt ("populations.txt", skiprowns = 1)
     
